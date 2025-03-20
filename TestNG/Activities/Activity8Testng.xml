@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+	<parameter name="sUsername" value="admin"/>
+    <parameter name="sPassword" value="password"/>
+    <classes>
+      <class name="TestngActivities.DemoTwo"/>
+      <class name="TestngActivities.Activity1"/>
+      <class name="TestngActivities.Activity2"/>
+      <class name="TestngActivities.Activity7"/>
+      <class name="TestngActivities.DemoOne"/>
+      <class name="TestngActivities.Activity9"/>
+      <class name="TestngActivities.Activity3"/>
+      <class name="TestngActivities.Activity5"/>
+      <class name="TestngActivities.Activity10"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
